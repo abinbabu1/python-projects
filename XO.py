@@ -1,3 +1,14 @@
+'''
+XO Game in Python. Game grid is arranged in the pattern of Number Pad in keyboard. 
+Game asks for marker X or O of Player 1, then assigns the marker for Player 2 accordingly.
+Which Player plays first is decided by random.
+Various functions control the gameplay.
+When a Player wins or when the game is tie, the game asks if the players would like another round of play.
+If no, then the game quits.
+Enjoy!
+'''
+
+
 #Function that prints out the game board
 def display_board(board):
     
