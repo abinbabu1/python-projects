@@ -43,7 +43,8 @@ def result(user_input, comp_input):
 
 
 while True:
-
+	
+	token = {'r': 'Rock', 'p': 'Paper', 's': 'Scissors'}
 	#Display score card
 	print(f"\tScore Card")
 	print(f"\tYou: {user_score}, Computer: {comp_score}")
@@ -59,7 +60,7 @@ while True:
 	#Getting computer input
 	comp_input = random.choice(computer_token)
 	
-	print(f"Your choice: {user_input}, Computer choice: {comp_input}")
+	print(f"Your choice: {token[user_input]}, Computer choice: {token[comp_input]}")
 	
 	#Function call to determine result
 	result(user_input, comp_input)
